@@ -1,0 +1,75 @@
+# put your python code here
+# a = [int(i) for i in input().split()]
+# j = 0
+# l = len(a) - 1
+# if l == 0:
+#     print (a[l])
+# else:
+#     for j in range(l+1):
+#         if j != l:
+#             print( a[j-1] + a[j+1], end=' ')
+#         else:
+#             print( a[j-1] + a[0])
+
+# a.sort()
+# j = 0
+# k = 'null'
+# l = len(a)
+# for j in range(l-2):
+#     if a.count(a[j]) > 1 and a[j] != k:
+#         print(a[j])
+#         a[j] = k
+
+# a = int(input())
+# list = []
+# sumsqr = int(0)
+# sum = int(0)
+# while True:
+#     a = int(input())
+#     list.append(a)
+#     sum += a
+#     if sum == 0:
+#         break
+# for i in list:
+#     sumsqr += i**2
+# print(sumsqr)
+
+# i = 0
+
+# cnt = 0
+# n = int(input())
+# for i in range(n + 1):
+#     if cnt == n:
+#         break
+#     for j in range(i + 1):
+#         print(str(i), end=' ')
+#         cnt += 1
+#         if cnt == n:
+#             break
+
+# lst = [int(i) for i in input('Input list').split()]
+# x = int(input('Input number'))
+# nlst = []
+# for i in range(len(lst)):
+#     if lst[i] == x:
+#         nlst.append(i)
+# if len(nlst) == 0:
+#     print('Отсутствует')
+# else:
+#     nlst.sort
+#     for j in nlst:
+#         print(j, end=' ')
+
+
+# def hui(x):
+#     if x <= -2:
+#         return 1 - (x + 2) ** 2
+#     elif -2 < x <= 2:
+#         return -x // 2
+#     elif 2 < x:
+#         return (x-2)**2 + 1
+
+# def update_dictionary(d, key, value):
+# d = {}
+
+
